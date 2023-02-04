@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+* {
+	direction: ltr;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box !important;
+}
+
+:root {
+  --main-red: #FE1800;
+	--main-white: #EEEEEE;
+	--main-orange: #DC5F00;
+	--main-black: #000000;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -36,7 +36,8 @@ const ProductDetails: React.FC = () => {
     if (product) {
       setCart([...cart, {
         product,
-        quantity: 1
+        quantity: 1,
+        message: ""
       }])
       setShowPopup(true)
     }

@@ -25,7 +25,8 @@ const ProductPreview: React.FC<Product> = ({ _id, name, imageUrl, price, categor
         owner,
         price
       },
-      quantity: 1
+      quantity: 1,
+      message:""
     }])
   }
   const isCartContainProduct = () => {
